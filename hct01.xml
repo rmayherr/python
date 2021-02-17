@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cda xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="../../model/application.xsd">
+
+	<version-control>
+		<workfile>$Source:
+			/data/cvs/iba04/iba04-cda-appl/registry/hct/hct01.xml,v $
+		</workfile>
+		<revision>$Revision: 1.19 $</revision>
+		<author-last-modification>$Author: c30165 $
+		</author-last-modification>
+		<date-last-modification>$Date: 2017/05/16 07:51:39 $
+		</date-last-modification>
+		<author-original>ST5651</author-original>
+	</version-control>
+
+	<application id="hct01" ear="HCT_EAR.ear"
+		name="HATSAccess2CT">
+		<web-module name="ct" uri="HCT_Web.war,WEB-INF/web.xml" />
+
+		<nsb id="hct01_log_printStackTrace">
+			<nsb-name
+				value="AAB/Logging/Global/com_abnamro_nl_logging_log4j2_configurator_AABLogConfigurator/humanReadable_printStackTrace" />
+			<nsb-value value="true" />
+		</nsb>
+
+		<nsb id="hct01_version">
+
+			<nsb-name
+				value="AAB/Logging/Global/com_abnamro_nl_logging_log4j2_configurator_AABLogConfigurator/version" />
+
+			<nsb-value value="1.5" />
+
+		</nsb>
+
+		<nsb id="hct01_log_packageList_warn">
+			<nsb-name
+				value="AAB/Logging/Global/com_abnamro_nl_logging_log4j2_configurator_AABLogConfigurator/packageList_warn" />
+			<nsb-value value="org.apache" />
+		</nsb>
+
+		<nsb id="hct01_humanReadableFilename">
+			<nsb-name
+				value="AAB/Logging/Global/com_abnamro_nl_logging_log4j2_configurator_AABLogConfigurator/humanReadable_filename" />
+			<nsb-value value="human.log" />
+		</nsb>
+
+		<nsb id="hct01_human_activated">
+
+			<nsb-name
+				value="AAB/Logging/Global/com_abnamro_nl_logging_log4j2_configurator_AABLogConfigurator/humanReadable_activated" />
+
+			<nsb-value value="TRUE" />
+
+		</nsb>
+
+		<nsb id="hct01_human_format">
+
+			<nsb-name
+				value="AAB/Logging/Global/com_abnamro_nl_logging_log4j2_configurator_AABLogConfigurator/humanReadableDateTimeFormat" />
+
+			<nsb-value value="yyyy-MM-dd'T'HH:mm:ss.SSSZ" />
+		</nsb>
+
+		<nsb id="hct01_human_layout">
+
+			<nsb-name
+				value="AAB/Logging/Global/com_abnamro_nl_logging_log4j2_configurator_AABLogConfigurator/humanReadable_layout" />
+
+			<nsb-value
+				value="com.abnamro.nl.logging.log4j2.layouts.HumanReadableLayout" />
+
+		</nsb>
+
+		<nsb id="hct01_buffer_size">
+
+			<nsb-name
+				value="AAB/Logging/Global/com_abnamro_nl_logging_log4j2_configurator_AABLogConfigurator/humanReadable_buffer_size" />
+
+			<nsb-value value="4000" />
+		</nsb>
+		<nsb id="hct01_consoleActivated">
+			<nsb-name
+				value="AAB/Logging/Global/com_abnamro_nl_logging_log4j2_configurator_AABLogConfigurator/console_activated" />
+			<nsb-value value="true" />
+		</nsb>
+
+		<nsb id="hct01_console_layout">
+
+			<nsb-name
+				value="AAB/Logging/Global/com_abnamro_nl_logging_log4j2_configurator_AABLogConfigurator/console_layout" />
+
+			<nsb-value
+				value="com.abnamro.nl.logging.log4j2.layouts.HumanReadableLayout" />
+
+		</nsb>
+
+		<nsb id="hct01_log_packageList_debug">
+			<nsb-name
+				value="AAB/Logging/Global/com_abnamro_nl_logging_log4j2_configurator_AABLogConfigurator/packageList_debug" />
+			<nsb-value value="com.abnamro" />
+		</nsb>
+
+		<nsb id="hct01_genericThreshold-et-pr">
+			<nsb-name
+				value="AAB/Logging/Global/com_abnamro_nl_logging_log4j2_configurator_AABLogConfigurator/genericThreshold" />
+			<nsb-value value="INFO" />
+		</nsb>
+
+		<nsb id="hct01_genericThreshold-ut-st">
+			<nsb-name
+				value="AAB/Logging/Global/com_abnamro_nl_logging_log4j2_configurator_AABLogConfigurator/genericThreshold" />
+			<nsb-value value="DEBUG" />
+		</nsb>
+
+		<nsb id="hct01_humanReadThreshold-ut-st">
+			<nsb-name
+				value="AAB/Logging/Global/com_abnamro_nl_logging_log4j2_configurator_AABLogConfigurator/humanReadable_threshold" />
+			<nsb-value value="DEBUG" />
+		</nsb>
+		<nsb id="hct01_humanReadThreshold-et-pr">
+			<nsb-name
+				value="AAB/Logging/Global/com_abnamro_nl_logging_log4j2_configurator_AABLogConfigurator/humanReadable_threshold" />
+			<nsb-value value="INFO" />
+		</nsb>
+
+		<nsb id="racfMiddleUser-st">
+			<nsb-name value="hats/configuration/racfMiddleUser" />
+			<nsb-value value="RACFMiddleUser-st" />
+		</nsb>
+
+		<nsb id="racfMiddleUser-et">
+			<nsb-name value="hats/configuration/racfMiddleUser" />
+			<nsb-value value="RACFMiddleUser-et" />
+		</nsb>
+
+		<nsb id="racfMiddleUser-pr">
+			<nsb-name value="hats/configuration/racfMiddleUser" />
+			<nsb-value value="RACFMiddleUser-pr" />
+		</nsb>
+
+		<nsb id="CyberArkAppID-st">
+			<nsb-name value="hats/configuration/cyberArkAppID" />
+			<nsb-value value="AAB017604_T" />
+		</nsb>
+
+		<nsb id="CyberArkSafe-st">
+			<nsb-name value="hats/configuration/cyberArkSafe" />
+			<nsb-value value="AAB017604_OP_T" />
+		</nsb>
+
+		<nsb id="CyberArkFolder-st">
+			<nsb-name value="hats/configuration/cyberArkFolder" />
+			<nsb-value value="root" />
+		</nsb>
+
+		<nsb id="CyberArkReason-st">
+			<nsb-name value="hats/configuration/cyberArkReason" />
+			<nsb-value value="To Connect IMS" />
+		</nsb>
+
+		<nsb id="CyberArkObject-st">
+			<nsb-name value="hats/configuration/cyberArkObject" />
+			<nsb-value value="HCT_RACF_ST_Pwd" />
+		</nsb>
+	</application>
+</cda>

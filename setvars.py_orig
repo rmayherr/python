@@ -1,0 +1,77 @@
+CellName=AdminControl.getCell()
+NodeName=AdminControl.getNode()
+#ServerName=AdminTask.listServers().split("(")
+def SetWASVariables():
+  WFound=0
+  WVariables={"ras_default_msg_dd" : "DEFALTDD" ,
+              "ras_hardcopy_msg_dd" : "HRDCPYDD",
+              "DAEMON_ras_default_msg_dd" : "DEFALTDD",
+              "DAEMON_ras_hardcopy_msg_dd" : "HRDCPYDD",
+              "JAVA_DUMP_TDUMP_PATTERN" : "DMP00S.JVM.TDUMP.&JOBNAME..D&YYMMDD..T&HHMMSS.",
+              "_CEE_DMPTARG" : "/tmp"}
+  Cell=AdminConfig.getid("/Cell:"+CellName+"/VariableMap:/")
+  WVarSub=AdminConfig.list("VariableSubstitutionEntry",Cell).split()
+  print "Setting websphere variables with scope " + CellName
+  #print "Server name " + ServerName[0]
+  for Wkey,Wvalue in WVariables.items():
+    for SubVar in WVarSub:
+      GetVarName = AdminConfig.showAttribute(SubVar, "symbolicName")
+      if GetVarName == Wkey:
+        WFound=1
+    if WFound == 1:
+      print "Modify variable " + Wkey + " with the value " + Wvalue
+      AdminConfig.modify(SubVar,[['value', Wvalue]])
+    else:
+      print "Set variables " + Wkey + " with value " + Wvalue
+      AdminTask.setVariable('-scope Cell='+CellName+' -variableName '+Wkey+' -variableValue '+Wvalue+'')
+def SetRasTime():
+  WFound=0
+  WVariables={"DAEMON_ras_time_local" : "1"}
+  Cell=AdminConfig.getid("/Cell:"+CellName+"/VariableMap:/")
+  WVarSub=AdminConfig.list("VariableSubstitutionEntry",Cell).split()
+  print "Setting websphere variables with scope " + CellName
+  for Wkey,Wvalue in WVariables.items():
+    for SubVar in WVarSub:
+      GetVarName = AdminConfig.showAttribute(SubVar, "symbolicName")
+      if GetVarName == Wkey:
+        WFound=1
+    if WFound == 1:
+      print "Modify key " + Wkey + " with the value " + Wvalue
+      AdminConfig.modify(SubVar,[['value', Wvalue]])
+    else:
+      print "Set key " + Wkey + " with the value " + Wvalue
+      AdminTask.setVariable('-scope Cell='+CellName+' -variableName '+Wkey+' -variableValue '+Wvalue+'')
+def SetDB2Variables():
+  WFound=0
+  WVariables={"DB2UNIVERSAL_JDBC_DRIVER_NATIVEPATH" : "/???????profiles/default/etc/DB2JDBC",
+              "MQ_INSTALL_ROOT" : "/usr/local/????",
+              "DB2UNIVERSAL_JDBC_DRIVER_PATH" : "/?????????files/default/etc/DB2JDBC/classes"}
+  Node=AdminConfig.getid("/Node:"+NodeName+"/VariableMap:/")
+  WVarSub=AdminConfig.list("VariableSubstitutionEntry",Node).split()
+  for Wkey,Wvalue in WVariables.items():
+    for SubVar in WVarSub:
+      GetVarName = AdminConfig.showAttribute(SubVar, "symbolicName")
+      if GetVarName == Wkey:
+        WFound=1
+    if WFound == 1:
+      print "Modify key " + Wkey + " with the value " + Wvalue
+      AdminConfig.modify(SubVar,[['value', Wvalue]])
+    else:
+      print "Set key " + Wkey + " with the value " + Wvalue
+      AdminTask.setVariable('-scope Node='+NodeName+' -variableName '+Wkey+' -variableValue '+Wvalue+'')
+def SetAdjunctProp():
+  ServerName=AdminTask.listServers().split("(")
+  server = AdminConfig.getid('/Server:xxxx1/')
+  SibService = AdminConfig.list('SIBService', server)
+  print "Turn on Adjunct region on " + server
+  AdminConfig.modify(SibService, [["enable", "true"]])
+#-------------------------------------------------------------------------------------------------------#
+print "Starting function SetWASVariables()"
+SetWASVariables()
+print "Starting function SetRasTime()"
+SetRasTime()
+print "Starting function SetDB2Variables()"
+SetDB2Variables()
+print "Starting function SetAdjunctProp()"
+SetAdjunctProp()
+#AdminConfig.save()

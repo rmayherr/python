@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+<head>
+	<!-- SITE MON : START (DO NOT DELETE) -->
+	<!-- developerWorks monitoring token -->
+	<!-- SITE MON : END (DO NOT DELETE) -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- v18 meta -->
+	<meta name="geo.country" content="ZZ" />
+	<meta name="dcterms.rights" content="� Copyright IBM Corp. 2016" />
+	<meta name="dcterms.date" content="2016-07-18" />
+	<meta name="keywords" content="" />
+	<meta name="robots" content="index, follow" />
+	<link rel="shortcut icon" href="//www.ibm.com/favicon.ico" />
+
+		<!-- end of v18 meta -->
+
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="https://developer.ibm.com/javasdk/xmlrpc.php">
+<script>
+		 digitalData = {
+		  "page":{
+		    "category":{
+		      "primaryCategory":"SOFDCJSDZZ",		      "ibm":[
+
+		      ]
+		    },
+		    "pageInfo":{
+		      "effectiveDate":"2016-07-18",
+		      "expiryDate":"2020-07-18",
+		      "language":"en-US",
+		      "publishDate":"2018-02-15",
+		      "publisher":"IBM Corporation",
+		      "version":"v18",
+		      "pageID":"",
+		      "ibm":{
+						"contentDelivery":"HTML",
+		        "contentProducer":"IBM Northstar Template Generator 2.0",
+		        "country":"ZZ",
+		        "industry":"ZZ",
+		        "owner":"Jamie Pickett\/Boulder\/IBM",
+		        "siteID":"DWNEXT",
+						"subject":"SW700",
+		        "type":"SW700",
+		        "cmClientID":"50200000| DWNEXT",
+		        "encoding":"utf8",
+		        "encodingRaw":"utf-8",
+		        "title":"Java SDK",
+						"contentType": "page",
+						"wpid":"103",
+						"topics":"",
+						"contentArea": ""
+		      },
+		      "metrics":[
+
+		      ],
+		      "keywords":"",
+		      "description":"Java SDK - Home of the IBM SDK, Java Technology Edition"
+		    },
+		    "attributes":[
+
+		    ],
+		  },
+		  "event_coordinator":[
+
+		  ],
+		  "isLoaded":true,
+		  "user":{
+		    "profile":[
+
+		    ],
+		    "segment":{
+
+		    }
+		  }
+		};
+	 </script>
+<title>z/OS download and service information - Java SDK</title>
+
+<!-- This site is optimized with the Yoast SEO plugin v9.0.2 - https://yoast.com/wordpress/plugins/seo/ -->
+<link rel="canonical" href="https://developer.ibm.com/javasdk/support/zos/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="z/OS download and service information - Java SDK" />
+<meta property="og:description" content="Java Standard Edition products on z/OS IBM&reg; SDK for z/OS&reg;, Java&trade; Technology Edition downloads These downloads are full function products that have passed the Java compatible test suites, carry the Java compatible logo, and provide the Java language and function for z/OS. Products are available at no charge in both SMP/E and non-SMP/E format. You &hellip;" />
+<meta property="og:url" content="https://developer.ibm.com/javasdk/support/zos/" />
+<meta property="og:site_name" content="Java SDK" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="Java Standard Edition products on z/OS IBM&reg; SDK for z/OS&reg;, Java&trade; Technology Edition downloads These downloads are full function products that have passed the Java compatible test suites, carry the Java compatible logo, and provide the Java language and function for z/OS. Products are available at no charge in both SMP/E and non-SMP/E format. You [&hellip;]" />
+<meta name="twitter:title" content="z/OS download and service information - Java SDK" />
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//1.www.s81c.com' />
+<link rel='dns-prefetch' href='//www.ibm.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Java SDK &raquo; Feed" href="https://developer.ibm.com/javasdk/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Java SDK &raquo; Comments Feed" href="https://developer.ibm.com/javasdk/comments/feed/" />
+<meta name="segment" property="developerWorks (developerWorks)" productTitle="developerWorks" value="Java SDK (developerWorks)">
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"\/\/dw1.s81c.com\/dw\/wp-includes\/js\/wp-emoji-release.min.js"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='events-manager-css'  href='https://dw1.s81c.com/javasdk/wp-content/plugins/events-manager/includes/css/events_manager.css' type='text/css' media='all' />
+<link rel='stylesheet' id='tab-styles-css'  href='https://dw1.s81c.com/javasdk/wp-content/plugins/projectnext-shortcodes/tab-styles.css' type='text/css' media='all' />
+<link rel='stylesheet' id='dwboomer-style-css'  href='https://dw1.s81c.com/javasdk/wp-content/themes/boomer-v18/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='https://dw1.s81c.com/javasdk/wp-includes/css/dashicons.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='pagepost_css-css'  href='https://dw1.s81c.com/javasdk/wp-content/themes/boomer-v18/css/pagepost.css' type='text/css' media='all' />
+<style id='pagepost_css-inline-css' type='text/css'>
+#ibm-leadspace-body {
+    padding: 34px 0 0px !important;
+}
+
+#thinHeaderTitle {
+	font-family: "HelveticaNeue-Light", "HelvLightIBM", Arial, sans-serif !important;
+}
+</style>
+<link rel='stylesheet' id='pnext.utils-css'  href='https://dw1.s81c.com/javasdk/wp-content/themes/boomer-v18/css/pnext.utils.css' type='text/css' media='all' />
+<script type='text/javascript' src='//1.www.s81c.com/common/v18/js/www.js'></script>
+<script type='text/javascript' src='//1.www.s81c.com/common/v18/js/dyntabs.js'></script>
+<script type='text/javascript' src='//1.www.s81c.com/common/v18/js/masonry.js'></script>
+<script type='text/javascript' src='//dw1.s81c.com/dw/wp-includes/js/jquery/ui/core.min.js'></script>
+<script type='text/javascript' src='//dw1.s81c.com/dw/wp-includes/js/jquery/ui/widget.min.js'></script>
+<script type='text/javascript' src='//dw1.s81c.com/dw/wp-includes/js/jquery/ui/position.min.js'></script>
+<script type='text/javascript' src='//dw1.s81c.com/dw/wp-includes/js/jquery/ui/mouse.min.js'></script>
+<script type='text/javascript' src='//dw1.s81c.com/dw/wp-includes/js/jquery/ui/sortable.min.js'></script>
+<script type='text/javascript' src='//dw1.s81c.com/dw/wp-includes/js/jquery/ui/datepicker.min.js'></script>
+<script type='text/javascript'>
+jQuery(document).ready(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","currentText":"Today","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Previous","dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"dateFormat":"MM d, yy","firstDay":1,"isRTL":false});});
+</script>
+<script type='text/javascript' src='//dw1.s81c.com/dw/wp-includes/js/jquery/ui/menu.min.js'></script>
+<script type='text/javascript' src='//dw1.s81c.com/dw/wp-includes/js/wp-a11y.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var uiAutocompleteL10n = {"noResults":"No results found.","oneResult":"1 result found. Use up and down arrow keys to navigate.","manyResults":"%d results found. Use up and down arrow keys to navigate.","itemSelected":"Item selected."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//dw1.s81c.com/dw/wp-includes/js/jquery/ui/autocomplete.min.js'></script>
+<script type='text/javascript' src='//dw1.s81c.com/dw/wp-includes/js/jquery/ui/resizable.min.js'></script>
+<script type='text/javascript' src='//dw1.s81c.com/dw/wp-includes/js/jquery/ui/draggable.min.js'></script>
+<script type='text/javascript' src='//dw1.s81c.com/dw/wp-includes/js/jquery/ui/button.min.js'></script>
+<script type='text/javascript' src='//dw1.s81c.com/dw/wp-includes/js/jquery/ui/dialog.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var EM = {"ajaxurl":"https:\/\/developer.ibm.com\/javasdk\/wp-admin\/admin-ajax.php","locationajaxurl":"https:\/\/developer.ibm.com\/javasdk\/wp-admin\/admin-ajax.php?action=locations_search","firstDay":"1","locale":"en","dateFormat":"dd\/mm\/yy","ui_css":"https:\/\/developer.ibm.com\/javasdk\/wp-content\/plugins\/events-manager\/includes\/css\/jquery-ui.min.css","show24hours":"","is_ssl":"1","bookingInProgress":"Please wait while the booking is being submitted.","tickets_save":"Save Ticket","bookingajaxurl":"https:\/\/developer.ibm.com\/javasdk\/wp-admin\/admin-ajax.php","bookings_export_save":"Export Bookings","bookings_settings_save":"Save Settings","booking_delete":"Are you sure you want to delete?","booking_offset":"30","bb_full":"Sold Out","bb_book":"Book Now","bb_booking":"Booking...","bb_booked":"Booking Submitted","bb_error":"Booking Error. Try again?","bb_cancel":"Cancel","bb_canceling":"Canceling...","bb_cancelled":"Cancelled","bb_cancel_error":"Cancellation Error. Try again?","txt_search":"Search","txt_searching":"Searching...","txt_loading":"Loading...","event_detach_warning":"Are you sure you want to detach this event? By doing so, this event will be independent of the recurring set of events.","delete_recurrence_warning":"Are you sure you want to delete all recurrences of this event? All events will be moved to trash.","disable_bookings_warning":"Are you sure you want to disable bookings? If you do this and save, you will lose all previous bookings. If you wish to prevent further bookings, reduce the number of spaces available to the amount of bookings you currently have","booking_warning_cancel":"Are you sure you want to cancel your booking?"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://dw1.s81c.com/javasdk/wp-content/plugins/events-manager/includes/js/events-manager.js'></script>
+<script type='text/javascript' src='https://dw1.s81c.com/javasdk/wp-content/plugins/projectnext-shortcodes/tab-dropdown.js'></script>
+<script type='text/javascript' src='https://dw1.s81c.com/javasdk/wp-content/themes/boomer-v18/js/pnext.utils.js'></script>
+<script type='text/javascript' src='//1.www.s81c.com/common/stats/ida_stats.js'></script>
+<link rel='https://api.w.org/' href='https://developer.ibm.com/javasdk/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://developer.ibm.com/javasdk/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://dw1.s81c.com/javasdk/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.9.9" />
+<link rel='shortlink' href='https://developer.ibm.com/javasdk/?p=1749' />
+<link rel="alternate" type="application/json+oembed" href="https://developer.ibm.com/javasdk/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdeveloper.ibm.com%2Fjavasdk%2Fsupport%2Fzos%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://developer.ibm.com/javasdk/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdeveloper.ibm.com%2Fjavasdk%2Fsupport%2Fzos%2F&#038;format=xml" />
+	<style type="text/css">
+			.site-title,
+		.site-description {
+			position: absolute;
+			clip: rect(1px, 1px, 1px, 1px);
+		}
+		</style>
+	
+    <link href="//1.www.s81c.com/common/v18/css/www.css" rel="stylesheet" />
+    <link href="//1.www.s81c.com/common/v18/css/grid-fluid.css" rel="stylesheet">
+    <link href="//1.www.s81c.com/common/v18/css/tables.css" rel="stylesheet">
+
+	<script type="text/javascript">
+		 IBMCore.common.util.config.set({
+		  "masthead":{
+		    "type":"alternate"
+		  },
+			greeting: { enabled: false },
+		  "footer":{
+		  	"type":"alternate",
+		    "socialLinks":{
+		      "enabled":false
+		    }
+		  },
+			survey: { global_percent: 0 }
+		});
+	 </script>
+</head>
+
+<body id="ibm-com" class="page-template page-template-page-brochureware page-template-page-brochureware-php page page-id-1749 page-child parent-pageid-43 ibm-com ibm-type group-blog">
+	<div style="display:none">page-brochureware.php</div>
+<!--div id="page" class="site"-->
+<div id="ibm-top" class="ibm-landing-page">
+	<a class="skip-link screen-reader-text" href="#main">Skip to content</a>
+
+	<!-- MASTHEAD_BEGIN -->
+	<div id="ibm-masthead" role="banner" aria-label="IBM" class="ibm-mhtype-minimal">
+		<div id="ibm-mast-options">
+			<ul role="toolbar" aria-labelledby="ibm-masthead">
+				<li id="ibm-geo" role="presentation">
+					<a href="http://www.ibm.com/planetwide/select/selector.html">United States</a>
+				</li>
+			</ul>
+		</div>
+		<div id="ibm-universal-nav">
+			<div id="ibm-home">
+				<a href="http://www.ibm.com/us-en/">IBM�</a>
+			</div>
+			<div class="dw-nav-left">
+				<a href="http://developer.ibm.com" class="dw-logo"><span>IBM Developer</span></a>
+							</div>
+			<ul id="ibm-menu-links" role="toolbar" aria-label="Site map" class="ibm-hide">
+				<li><a href="http://www.ibm.com/sitemap/us/en/">Site map</a></li>
+			</ul>
+			<div id="ibm-search-module" role="search" aria-labelledby="ibm-masthead">
+				<!-- form id="ibm-search-form" action="http://www.ibm.com/Search/" method="get" -->
+				<form id="ibm-search-form" action="//www.ibm.com/Search/" method="get">
+					<p>
+						<label for="q"><span class="ibm-access">Search</span></label>
+						<input type="text" maxlength="100" value="" name="q" id="q"/>
+						<input type="hidden" name="v" value="18" />
+						<input type="hidden" name="en" value="utf" />
+						<input type="hidden" name="lang" value="en" />
+						<input type="hidden" name="cc" value="us" />
+						<input type="hidden" name="sn" value="dw" />
+						<input type="hidden" name="dw" value="dws" />
+
+						<span class="ibm-search-scope">
+							<input type="checkbox" class="ibm-styled-checkbox" name="sn" value="Search standards" checked id="scopeoption">
+							<label for="scopeoption">Search Java SDK</label>
+						</span>
+
+						<input type="submit" id="ibm-search" class="ibm-btn-search" value="Submit"/>
+					</p>
+				</form>
+									<form class="ibm-hide" id="devcenter-search-form" action="https://developer.ibm.com/javasdk/search/" method="get">
+						<p>
+							<label for="pnext-search-input" class="screen-reader-text">Search</label>
+							<input maxlength="100" required aria-required="true" id="q" class="pn-search-input pn-nav-search-input fl" name="q" type="text">
+							<input type="submit" id="ibm-search" class="ibm-btn-search" value="Seach"/>
+						</p>
+					</form>
+								</div>
+		</div>
+	</div>
+  <!-- MASTHEAD_END -->
+  <div id="ibm-content-wrapper">
+  	<header role="banner" aria-labelledby="ibm-pagetitle-h1">
+  		<!-- MASTHEAD_SITENAV_BEGIN -->
+<div class="ibm-sitenav-menu-container">
+  <div class="ibm-sitenav-menu-name">
+    <a href="https://developer.ibm.com/javasdk/" rel="home">Java SDK</a>
+  </div>
+    <div class="ibm-sitenav-menu-list"><ul id="primary-menu" class="menu"><li id="menu-item-221" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-221"><a href="https://developer.ibm.com/javasdk/about/">About</a></li>
+<li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a href="https://developer.ibm.com/javasdk/blog/">Blog</a></li>
+<li id="menu-item-807" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-807"><a href="https://developer.ibm.com/javasdk/downloads/">Downloads</a>
+<ul class="sub-menu">
+	<li id="menu-item-813" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-813"><a href="https://developer.ibm.com/javasdk/downloads/">Overview</a></li>
+	<li id="menu-item-812" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-812"><a href="https://developer.ibm.com/javasdk/downloads/sdk8/">Java 8</a></li>
+	<li id="menu-item-811" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-811"><a href="https://developer.ibm.com/javasdk/downloads/sdk7r1/">Java 7 Release 1</a></li>
+	<li id="menu-item-810" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-810"><a href="https://developer.ibm.com/javasdk/downloads/sdk7/">Java 7</a></li>
+	<li id="menu-item-809" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-809"><a href="https://developer.ibm.com/javasdk/downloads/sdk6/">Java 6</a></li>
+	<li id="menu-item-808" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-808"><a href="https://developer.ibm.com/javasdk/downloads/eclipse/">Eclipse</a></li>
+	<li id="menu-item-1510" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1510"><a href="https://developer.ibm.com/javasdk/downloads/spark/">Spark</a></li>
+</ul>
+</li>
+<li id="menu-item-52" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-52"><a href="https://developer.ibm.com/javasdk/documentation/">Documentation</a></li>
+<li id="menu-item-54" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-54"><a href="https://developer.ibm.com/javasdk/tools/">Monitoring and Post Mortem</a></li>
+<li id="menu-item-53" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current-menu-parent current-page-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-53"><a href="https://developer.ibm.com/javasdk/support/">Support</a>
+<ul class="sub-menu">
+	<li id="menu-item-560" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-page-parent menu-item-560"><a href="https://developer.ibm.com/javasdk/support/">Support</a></li>
+	<li id="menu-item-1508" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1508"><a href="https://developer.ibm.com/javasdk/support/aix-download-service/">AIX download and service information</a></li>
+	<li id="menu-item-1806" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1749 current_page_item menu-item-1806"><a href="https://developer.ibm.com/javasdk/support/zos/">z/OS download and service information</a></li>
+	<li id="menu-item-1063" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1063"><a href="https://developer.ibm.com/javasdk/support/fixes/">Fixes in the IBM SDKs</a></li>
+	<li id="menu-item-556" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-556"><a href="https://developer.ibm.com/javasdk/support/security-vulnerabilities/">Security Vulnerabilities</a></li>
+	<li id="menu-item-1032" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1032"><a href="https://developer.ibm.com/javasdk/support/lifecycle/">Lifecycle dates</a></li>
+	<li id="menu-item-967" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-967"><a href="https://developer.ibm.com/javasdk/support/dst/">Daylight Saving Time</a></li>
+	<li id="menu-item-2183" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2183"><a href="https://developer.ibm.com/javasdk/support/commercial-licensing/">Commercial Licensing</a></li>
+</ul>
+</li>
+</ul></div></div>
+<!-- MASTHEAD_SITENAV_END -->
+  	</header>
+<style>#ibm-com .gsc-adBlock{display:none !important;}</style>
+<div id="content" class="site-content">
+
+<div class="content-area" id="content-area">
+					
+<article id="post-1749" class="post-1749 page type-page status-publish hentry">
+	<div class="entry-content">
+		<!-- BEGIN BANNER -->
+
+<div id="ibm-leadspace-head" class="ibm-alternate ibm-alternate-background" style="background: url(https://dw1.s81c.com/javasdk/wp-content/uploads/sites/103/2016/08/CupBeans2.jpg) no-repeat 0 0 / cover rgb(62, 25, 1); background-position: 0% 85%;">
+    <div id="ibm-leadspace-body">
+        <div class="ibm-fluid">
+            <div class="ibm-col-1-1">
+                  <h1 id="thinHeaderTitle">Java Standard Edition products on z/OS</h1>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<div class="content-area-restricted">
+
+<!-- END BANNER -->
+
+<!-- BEGIN MAIN HOME PAGE CONTENT -->
+
+<div class="ibm-h5 ibm-boldt">IBM&reg; SDK for z/OS&reg;, Java&trade; Technology Edition downloads</div>
+
+<br><br>
+<p>These downloads are full function products that have passed the Java compatible test suites, carry the Java compatible logo, and provide the Java language and function for z/OS.</p>
+
+<p>Products are available at no charge in both SMP/E and non-SMP/E format. You can order the product from IBM Software Manufacturing or you can download the identical code from the Web. Service is by full product replacement.</p>
+
+<p>For information on when Security and Legacy Services features were first delivered in the SDK, see the <a href="ftp://public.dhe.ibm.com/software/Java/JavaAllVer/misc/JavaLIRInventoryByDelivery.pdf">Java Inventory Document (PDF, 471 KB)</a>.</p>
+
+<p>The following versions are available to download:
+<ul class="ibm-link-list">
+    <li>
+      <a class="ibm-anchor-down-link" href="#v8">IBM SDK for z/OS, Java Technology Edition, Version 8</a>
+    </li>
+    <li>
+      <a class="ibm-anchor-down-link" href="#v71">IBM SDK for z/OS, Java Technology Edition, Version 7 Release 1</a>
+    </li>
+    <li>
+      <a class="ibm-anchor-down-link" href="#v7">IBM SDK for z/OS, Java Technology Edition, Version 7</a>
+    </li>
+    <li>
+      <a class="ibm-anchor-down-link" href="#v61">IBM SDK for z/OS, Java Technology Edition, Version 6.0.1</a>
+    </li>
+    <li>
+      <a class="ibm-anchor-down-link" href="#v6">IBM SDK for z/OS, Java Technology Edition, Version 6</a>
+    </li>
+  </ul>
+
+<br><br>
+<div class="ibm-col-4-3">
+
+<h3 id="v8" class="ibm-h5 ibm-rule ibm-bold">IBM SDK for z/OS, Java Technology Edition, Version 8</h3>
+<p><strong>The non-SMP/E installable format of the code is available only from the web.</strong></p>
+<table  summary="Java SE Version 8 z/OS non-SMP/E downloads" data-widget="datatable" data-scrollaxis="x" class="ibm-data-table ibm-padding-small ibm-margin-bottom-2" cellspacing="0" cellpadding="0" border="0">
+<thead>
+<tr>
+	<th scope="col">SDK Version</th>
+	<th scope="col">Latest build level</th>
+	<th scope="col">Download the non-SMPE format of the code</th>
+	<th scope="col">Program directory</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+	<td>IBM 31-bit SDK for z/OS</td>
+	<td>April 18, 2019 – SDK80 SR5 FP35 (PTF UI62741/APARs PH11488/PH11494)</td>
+	<td class="ibm-ind-link"><a class="ibm-download-link" href="https://www.ibm.com/services/forms/preLogin.do?source=zossdk8_31">Download</a></td>
+	<td><a href="https://publibfp.dhe.ibm.com/epubs/pdf/ajva1112.pdf">Program directory</a></td>
+</tr>
+<tr>
+	<td>IBM 64-bit SDK for z/OS</td>
+	<td>April 18, 2019 – SDK80 SR5 FP35 (PTF UI62742/APARs PH11492/PH11528)</td>
+	<td class="ibm-ind-link"><a class="ibm-download-link" href="https://www.ibm.com/services/forms/preLogin.do?source=zossdk8_64">Download</a></td>
+	<td><a href="https://publibfp.dhe.ibm.com/epubs/pdf/ajvb1112.pdf">Program directory</a></td>
+</tr>
+</tbody>
+</table>
+
+
+<p><strong>The SMP/E installable format of the code is available only through Shopz</strong></p>
+<p>Visit the Shopz website at <a href="http://www.ibm.com/software/ShopzSeries">http://www.ibm.com/software/ShopzSeries</a></p>
+<p>When ordering:</p>
+<ul>
+<li>The product number is 5655-DGG (31 bit) or 5655-DGH (64 bit)</li>
+<li>The subscription and service number is 5655-I48</li>
+</ul>
+
+<p>For more product details, read the <a href="https://www.ibm.com/common/ssi/cgi-bin/ssialias?infotype=an&#038;subtype=ca&#038;appname=gpateam&#038;supplier=897&#038;letternum=ENUS215-010">formal announcement</a>.</p>
+
+<p>IBM specific features for z/OS Security and Legacy Services Components are described in the <a href="http://www.ibm.com/support/knowledgecenter/SSYKE2_8.0.0/com.ibm.java.zsecurity.80.doc/zsecurity-component/zos_security_overview.html">z/OS Security and Legacy Services Overview &#8211; IBM SDK, Java™ Technology Edition, Version 8.0</a>.</p>
+
+
+<h3 id="v71" class="ibm-h4 ibm-rule ibm-bold">IBM SDK for z/OS, Java Technology Edition, Version 7 Release 1</h3>
+<p><strong>The non-SMP/E installable format of the code is available only from the web.</strong></p>
+<table  summary="Java SE Version 7 release 1 z/OS non-SMP/E downloads" data-widget="datatable" data-scrollaxis="x" class="ibm-data-table ibm-padding-small ibm-margin-bottom-2" cellspacing="0" cellpadding="0" border="0">
+<thead>
+<tr>
+	<th scope="col">SDK Version</th>
+	<th scope="col">Latest build level</th>
+	<th scope="col">Download the non-SMPE format of the code</th>
+	<th scope="col">Program directory</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+	<td>IBM 31-bit SDK for z/OS</td>
+	<td>April 10, 2019 – SDK71 SR4 FP45 (PTF UI62722 /APARs PH11439/PH11441)</td>
+	<td class="ibm-ind-link"><a class="ibm-download-link" href="https://www.ibm.com/services/forms/preLogin.do?source=zossdk71_31">Download</a></td>
+	<td><a href="http://publibz.boulder.ibm.com/epubs/pdf/ajva1111.pdf">Program directory</a></td>
+</tr>
+<tr>
+	<td>IBM 64-bit SDK for z/OS</td>
+	<td>April 10, 2019 – SDK71 SR4 FP45 (PTF UI62723 /APARs PH11440/PH11442)</td>
+	<td class="ibm-ind-link"><a class="ibm-download-link" href="https://www.ibm.com/services/forms/preLogin.do?source=zossdk71_64">Download</a></td>
+	<td><a href="http://publibz.boulder.ibm.com/epubs/pdf/ajvb1111.pdf">Program directory</a></td>
+</tr>
+</tbody>
+</table>
+
+<p><strong>The SMP/E installable format of the code is available only through Shopz</strong></strong></p>
+<p>Visit the Shopz website at <a href="http://www.ibm.com/software/ShopzSeries">http://www.ibm.com/software/ShopzSeries</a></p>
+<p>When ordering:</p>
+<ul>
+<li>The product number is 5655-W43 (31 bit) or 5655-W44 (64 bit)</li>
+<li>The subscription and service number is 5655-I48</li>
+</ul>
+
+<p>For more product details, read the <a href="http://www.ibm.com/common/ssi/cgi-bin/ssialias?subtype=ca&#038;infotype=an&#038;supplier=897&#038;letternum=ENUS213-497">formal announcement</a>.</p>
+
+<p>IBM specific features for z/OS Security and Legacy Services Components are described in the <a href="http://www.ibm.com/support/knowledgecenter/SSYKE2_7.1.0/com.ibm.java.zsecurity.71.doc/zsecurity-component/zos_security_overview.html">z/OS Security and Legacy Services Overview &#8211; IBM SDK, Java™ Technology Edition, Version 7.1</a>.</p>
+
+<h3 id="v7" class="ibm-h4 ibm-rule ibm-bold">IBM SDK for z/OS, Java Technology Edition, Version 7</h3>
+<p><strong>The non-SMP/E installable format of the code is available only from the web.</strong></p>
+<table  summary="Java SE Version 7 z/OS non-SMP/E downloads" data-widget="datatable" data-scrollaxis="x" class="ibm-data-table ibm-padding-small ibm-margin-bottom-2" cellspacing="0" cellpadding="0" border="0">
+<thead>
+<tr>
+	<th scope="col">SDK Version</th>
+	<th scope="col">Latest build level</th>
+	<th scope="col">Download the non-SMPE format of the code</th>
+	<th scope="col">Program directory</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+	<td>IBM 31-bit SDK for z/OS</td>
+	<td>April 10, 2019 – SDK70 SR10 FP45 (PTF UI62689/APARs PH11321/PH11323 )</td>
+	<td class="ibm-ind-link"><a class="ibm-download-link" href="https://www.ibm.com/services/forms/preLogin.do?source=zossdk7_31">Download</a></td>
+	<td><a href="http://publibz.boulder.ibm.com/epubs/pdf/ajva1110.pdf">Program directory</a></td>
+</tr>
+<tr>
+	<td>IBM 64-bit SDK for z/OS</td>
+	<td>April 10, 2019 – SDK70 SR10 FP45 (PTF UI62690/APARs PH11322/PH11324)</td>
+	<td class="ibm-ind-link"><a class="ibm-download-link" href="https://www.ibm.com/services/forms/preLogin.do?source=zossdk7_64">Download</a></td>
+	<td><a href="http://publibz.boulder.ibm.com/epubs/pdf/ajvb1110.pdf">Program directory</a></td>
+</tr>
+</tbody>
+</table>
+
+<p><strong>The SMP/E installable format of the code is available only through Shopz</strong></p>
+<p>Visit the Shopz website at <a href="http://www.ibm.com/software/ShopzSeries">http://www.ibm.com/software/ShopzSeries</a></p>
+<p>When ordering:</p>
+<ul>
+<li>The product number is 5655-W43 (31 bit) or 5655-W44 (64 bit)</li>
+<li>The subscription and service number is 5655-I48</li>
+</ul>
+
+<p>For more product details, read the <a href="http://www.ibm.com/common/ssi/cgi-bin/ssialias?subtype=ca&#038;infotype=an&#038;supplier=897&#038;letternum=ENUS211-264">formal announcement</a>.</p>
+
+<p>IBM specific features for z/OS Security and Legacy Services Components are described in the <a href="http://www.ibm.com/support/knowledgecenter/SSYKE2_7.0.0/com.ibm.java.zsecurity.70.doc/zsecurity-component/zos_security_overview.html">z/OS Security and Legacy Services Overview &#8211; IBM SDK, Java™ Technology Edition, Version 7.0</a>.</p>
+
+
+<h3 id="v61" class="ibm-h4 ibm-rule ibm-bold">IBM SDK for z/OS, Java Technology Edition, Version 6.0.1</h3>
+<p><strong>The non-SMP/E installable format of the code is available only from the web.</strong></strong></p>
+<table  summary="Java SE Version 6.0.1 z/OS non-SMP/E downloads" data-widget="datatable" data-scrollaxis="x" class="ibm-data-table ibm-padding-small ibm-margin-bottom-2" cellspacing="0" cellpadding="0" border="0">
+<thead>
+<tr>
+	<th scope="col">SDK Version</th>
+	<th scope="col">Latest build level</th>
+	<th scope="col">Download the non-SMPE format of the code</th>
+	<th scope="col">Program directory</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+	<td>IBM 31-bit SDK for z/OS</td>
+	<td>    November 7, 2018 – SDK601 SR8 FP75 (PTF UI59949 APARs PH05719/ PH05720)</td>
+	<td class="ibm-ind-link"><a class="ibm-download-link" href="https://www.ibm.com/services/forms/preLogin.do?source=zossdk601_31">Download</a></td>
+	<td><a href="http://publibz.boulder.ibm.com/epubs/pdf/ajva1102.pdf">Program directory</a></td>
+</tr>
+<tr>
+	<td>IBM 64-bit SDK for z/OS</td>
+	<td>    November 7, 2018 – SDK601 SR8 FP75 (PTF UI59950 APARs PH05721/ PH05722)</td>
+	<td class="ibm-ind-link"><a class="ibm-download-link" href="https://www.ibm.com/services/forms/preLogin.do?source=zossdk601_64">Download</a></td>
+	<td><a href="http://publibz.boulder.ibm.com/epubs/pdf/ajvb1103.pdf">Program directory</a></td>
+</tr>
+</tbody>
+</table>
+
+<p><strong>The SMP/E installable format of the code is available only through Shopz</strong></p>
+<p>Visit the Shopz website at <a href="http://www.ibm.com/software/ShopzSeries">http://www.ibm.com/software/ShopzSeries</a></p>
+<p>When ordering:</p>
+<ul>
+<li>The product number is 5655-R31 (31 bit) or 5655-R32 (64 bit)</li>
+<li>The subscription and service number is 5655-I48</li>
+</ul>
+
+<p>For more product details, read the <a href="http://www.ibm.com/common/ssi/cgi-bin/ssialias?subtype=ca&#038;infotype=an&#038;supplier=897&#038;letternum=ENUS211-003">formal announcement</a>.</p>
+
+<p>IBM specific features for z/OS Security and Legacy Services Components are described in the <a href="http://www.ibm.com/support/knowledgecenter/SSYKE2_6.0.0/com.ibm.java.zsecurity.60_26.doc/zsecurity-component/zos_security_overview.html">z/OS Security and Legacy Services Overview &#8211; IBM SDK, Java™ Technology Edition, Version 6.0.1</a>.</p>
+
+
+
+<h3 id="v6" class="ibm-h4 ibm-rule ibm-bold">IBM SDK for z/OS, Java Technology Edition, Version 6</h3>
+<p><strong>The non-SMP/E installable format of the code is available only from the web.</strong></p>
+<table  summary="Java SE Version 6 z/OS non-SMP/E downloads" data-widget="datatable" data-scrollaxis="x" class="ibm-data-table ibm-padding-small ibm-margin-bottom-2" cellspacing="0" cellpadding="0" border="0">
+<thead>
+<tr>
+	<th scope="col">SDK Version</th>
+	<th scope="col">Latest build level</th>
+	<th scope="col">Download the non-SMPE format of the code</th>
+	<th scope="col">Program directory</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+	<td>IBM 31-bit SDK for z/OS</td>
+	<td>    November 5, 2018 – SDK60 SR16 FP75 (PTF UI59904 PH05585/ PH05586)</td>
+	<td class="ibm-ind-link"><a class="ibm-download-link" href="https://www.ibm.com/services/forms/preLogin.do?source=zossdk6_31">Download</a></td>
+	<td><a href="http://publibz.boulder.ibm.com/epubs/pdf/ajva1100.pdf">Program directory</a></td>
+</tr>
+<tr>
+	<td>IBM 64-bit SDK for z/OS</td>
+	<td>    November 5, 2018 – SDK60 SR16 FP75 (PTF UI59905 APARs PH05589/ PH05590)</td>
+	<td class="ibm-ind-link"><a class="ibm-download-link" href="https://www.ibm.com/services/forms/preLogin.do?source=zossdk6_64">Download</a></td>
+	<td><a href="http://publibz.boulder.ibm.com/epubs/pdf/ajvb1101.pdf">Program directory</a></td>
+</tr>
+</tbody>
+</table>
+
+<p><strong>The SMP/E installable format of the code is available only through Shopz</strong></p>
+<p>Visit the Shopz website at <a href="http://www.ibm.com/software/ShopzSeries">http://www.ibm.com/software/ShopzSeries</a></p>
+<p>When ordering:</p>
+<ul>
+<li>The product number is 5655-R31 (31 bit) or 5655-R32 (64 bit)</li>
+<li>The subscription and service number is 5655-I48</li>
+</ul>
+
+<p>For more product details, read the <a href="http://www.ibm.com/common/ssi/cgi-bin/ssialias?infotype=an&#038;subtype=ca&#038;appname=GPA&#038;htmlfid=897/ENUS207-318">formal announcement</a>.</p>
+
+<p>IBM specific features for z/OS Security and Legacy Services Components are described in the <a href="http://www.ibm.com/support/knowledgecenter/SSYKE2_6.0.0/com.ibm.java.zsecurity.60.doc/zsecurity-component/zos_security_overview.html">z/OS Security and Legacy Services Overview &#8211; IBM SDK, Java™ Technology Edition, Version 6.0.0</a>.</p>
+
+
+
+
+</div>
+<div class="ibm-col-4-1">
+<h2 class="ibm-h2 ibm-rule ibm-bold">Additional resources</h2>
+
+<h3 class="ibm-h3 ibm-bold">IBM websites</h3>
+<ul class="ibm-link-list">
+   <li><a class="ibm-forward-link" href="https://developer.ibm.com/zsystems/">DeveloperWorks: z Systems Developer Community</a></li>
+   <li><a class="ibm-forward-link" href="https://www.ibm.com/developerworks/rfe/">DeveloperWorks: Request for Enhancement (RFE) Community</a></li>
+</ul>
+
+<h3 class="ibm-h3 ibm-bold">Articles</h3>
+<ul class="ibm-link-list">
+   <li class="ibm-link-description"><a class="ibm-forward-link" href="http://www.ibm.com/developerworks/java/library/j-jni/">Best practices for using the Java Native Interface</a><p>Techniques and tools for averting the 10 most common JNI programming mistakes.</p></li>
+   <li class="ibm-link-description"><a class="ibm-forward-link" href="http://www.redbooks.ibm.com/abstracts/redp9110.html">IBM 64-Bit Redbook</a><p>This redbook describes the z/OS 64-bit C/C++ and Java Programming Environment.</p></li>
+</ul>
+
+<h3 class="ibm-h3 ibm-bold">Other information</h3>
+<ul class="ibm-link-list">
+   <li><a class="ibm-forward-link" href="http://java.sun.com/">Oracle Corp. Java Technology</a></li>
+   <li><a class="ibm-forward-link" href="http://www.ibm.com/developerworks/systems/library/es-java-batchz.html">Java batch jobs on z/OS and OS/390</a></li>
+   <li><a class="ibm-forward-link" href="https://github.com/IBM/IBM-Z-zOS/tree/master/zOS-Education/Hints-and-Tips-for-Java-on-zOS">Hints and Tips for Java on z/OS</a></li>
+</ul>
+
+</div>
+</div>
+</div>		
+	</div><!-- .entry-content -->	
+</article><!-- #post-## -->
+
+		</div>
+
+
+
+		</div><!-- #content -->
+	</div><!-- end of ibm-content-wrapper -->
+
+	<p class="ibm-ind-link ibm-nospacing ibm-icononly ibm-btt-auto ibm-hidden-small">
+		<a class="ibm-nospacing ibm-top-link" aria-label="Back to top" href="#top" tabindex="0">Back to top</a>
+	</p>
+
+	<footer role="contentinfo" aria-label="IBM" id="themeFooter">
+		<div id="boomer-footer" class="boomer_footer_menu"></div>
+		<div id="dw-footer" class="ibm-alternate ibm-padding-normal">
+			<div class="ibm-columns ibm-padding-bottom-0">
+				<div class="ibm-col-1-1">
+					<div class="ibm-footer-corporate-links">
+						<ul>
+              <li><a href="//ibm.com/community/feedback/">Contact</a></li>
+              <li><a href="//www.ibm.com/privacy/us/en/">Privacy</a></li>
+              <li><a href="//developer.ibm.com/terms/ibm-developer-terms-of-use/">Terms of use</a></li>
+              <li><a href="//www.ibm.com/accessibility/us/en/">Accessibility</a></li>
+              <li class="ibm-feedbacklink"><a href="#">Feedback</a></li>
+							<li><a href="https://www.ibm.com/developerworks/secure/report/">Report Abuse</a></li>
+              <li id="ibm-truste-cp"><a onclick="truste.eu.clickListener();return false;" href="#">Cookie Preferences</a></li>
+          	</ul>
+					</div>
+					<div id="ibm-footer-locale-selector"></div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</div><!-- #page -->
+
+<script>
+        jQuery(document).ready(function($){
+          var dcName = 'javasdk';
+          // $('a').each(function(){
+          //   if(this.href.match('bluemix.net')){
+          //     if(this.search){
+          //       this.href = this.href + '&cm_sp=dw-bluemix-_-'+dcName+'-_-devcenter';
+          //     }else{
+          //       this.href = this.href + '?cm_sp=dw-bluemix-_-'+dcName+'-_-devcenter';
+          //     }
+          //   }
+          // });
+
+          jQuery('a[href*="bluemix.net"]').each(function(){
+            if(this.search){
+              this.href = this.href + '&cm_sp=dw-bluemix-_-'+dcName+'-_-devcenter';
+            }else{
+              this.href = this.href + '?cm_sp=dw-bluemix-_-'+dcName+'-_-devcenter';
+            }
+          });
+
+        });
+      </script><link rel='stylesheet' id='tables_dw-css'  href='//1.www.s81c.com/common/v18/css/tables.css' type='text/css' media='all' />
+<script type='text/javascript' src='https://dw1.s81c.com/javasdk/wp-content/themes/boomer-v18/js/navigation.js'></script>
+<script type='text/javascript' src='https://dw1.s81c.com/javasdk/wp-content/themes/boomer-v18/js/skip-link-focus-fix.js'></script>
+<script type='text/javascript' src='//www.ibm.com/software/info/js/tactic.js'></script>
+<script type='text/javascript' src='//www.ibm.com/software/info/js/tacticbindlinks.js'></script>
+<script type='text/javascript' src='//dw1.s81c.com/dw/wp-includes/js/wp-embed.min.js'></script>
+<script type='text/javascript' src='//1.www.s81c.com/common/v18/js/tables.js'></script>
+
+<script>
+	/* this is where we are going to control the main menu */
+	function changeMenu(links) {
+		IBMCore.common.module.masthead.editProfileMenu({
+			action: "replace",
+			links: links
+		});
+	}
+
+	var setMainMenu = function(){
+					var userLinks = [{
+				title: "My IBM",
+				url: "https://myibm.ibm.com/dashboard/?lnk=mmi"
+			},{
+				title: "Sign In",
+				url: "https://developer.ibm.com/sso/login?d=https%3A%2F%2Fdeveloper.ibm.com%2Fjavasdk%2Fsupport%2Fzos&lang=en_US"
+			},
+			{
+				title: "Register",
+				url: "https://developer.ibm.com/sso/register?lang=en_US&d=https%3A%2F%2Fdeveloper.ibm.com%2Fjavasdk%2Fsupport%2Fzos"
+			}];
+				changeMenu(userLinks);
+	}
+
+	IBMCore.common.module.masthead.subscribe("profileMenuReady", "customjs", setMainMenu);
+</script>
+<script>
+		(function($) {
+			$(document).ready(function(){
+				/* prevent the # links in the main menu from firing */
+				$('.ibm-sitenav-menu-list #primary-menu a').on('click.stopFakeLinks',function(e){
+					$this = $(this);
+					if($this.attr('href') === "#"){
+						return false;
+					}
+				});
+
+				/* bind the feedback click evnet */
+				jQuery('#dw-footer .ibm-feedbacklink a').on("click", function(evt) {
+			        evt.preventDefault();
+			        var iframeWidth = 970;
+			        if (window.innerWidth < 900) {
+			            iframeWidth = window.innerWidth - 80
+			        }
+			        IBMCore.common.widget.surveyccfintercept.initFeedback({
+			            survey: {
+			                height: 700,
+			                id: "web-exp",
+			                metaData: "",
+			                type: "medallia",
+			                width: iframeWidth
+			            }
+			        })
+			   });
+				//testing out the alpha helper
+				$('[data-alpha]').each(function(i){
+					$elm = $(this);
+					var bg = $elm.css('backgroundColor').replace(/[rgb(]/g,'').replace(/ /g,'').replace(/[)]/g,'');
+					var alpha = $elm.data('alpha')/100;
+					$elm.css("cssText", "background-color: rgba("+bg+","+alpha+") !important;");
+				})
+				//testing out the panel slider
+				$('.pn-sliding-panels').each(function(i){
+					$elm = $(this);
+					//get the width of the active panel
+					var activeWidth = $elm.data('openamount'),
+						panelCount = $elm.data('panelcount'),
+						inactiveWidth = ((100 - activeWidth) / (panelCount-1));
+					//set the first slide as active - later, allow it to be set
+					$elm.find('.pn-panel').each(function(i,item){
+						$panel = $(item);
+						$panel.data('closedwidth',inactiveWidth);
+						$panel.data('openwidth',activeWidth);
+						if(i == 0){
+							$panel.addClass('pn-panel__active').css({width:activeWidth+'%'});
+						}else{
+							$panel.css({width:inactiveWidth+'%'});
+						}
+					});
+
+					$elm.on('click.slide','.pn-panel',function(e){
+						$this = $(this);
+						//console.info('clicked')
+						if($this.hasClass('pn-panel__active')){
+							//allow for the links in the active panel to be clicked
+							//console.info('im open, let the links through')
+						}else{
+							e.preventDefault();
+							//set the width of the currently active panel to the closed amount
+							var $active = $this.parents('.pn-sliding-panels').find('.pn-panel__active');
+								$active.css({width:$active.data('closedwidth')+'%'}).removeClass('pn-panel__active');
+							$this.addClass('pn-panel__active').css({width:$this.data('openwidth')+'%'});
+						}
+
+					})
+				});
+
+			})
+		})( jQuery );
+	</script>
+
+	
+</body>
+</html>
+
