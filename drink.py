@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 import time
 import sys
-piak = ['Cola', 'Whisky', 'Beer', 'Cancel']  # this is an Array
+piak = ['Cola', 'Whisky', 'Beer', 'Cancel']  #this is an Array
 prize = ['120', '430', '250']
 print("1.) "+piak[0]+"\n2.) "+piak[1]+"\n3.) "+piak[2]+"\n4.) "+piak[3])
 pia = input("\nChoose a drink:\n    1 - 2 - 3 - 4: ")
