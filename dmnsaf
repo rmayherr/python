@@ -1,0 +1,30 @@
+###################################################################### 
+# Change keyringname for Daemon                                      # 
+#                                                                    # 
+#                                                                    # 
+#                                                                    # 
+# Author                                                             # 
+# Roland Mayherr                                                     # 
+#                                                                    # 
+# Modification                                                       # 
+#   20210611 Creation date                                           # 
+###################################################################### 
+                                                                       
+cell = AdminControl.getCell()                                          
+cname=AdminConfig.getid('/Cell:'+ cell)                                
+kr="SITEKEYRING"                                                       
+krorig="WASKeyring.InfraCA"                                            
+                                                                       
+def _do(keyr):                                                         
+ print('Add daemon keyring name '+keyr+' to '+cell)                    
+ vmaplist=AdminConfig.list("VariableMap",cname)                        
+ for i in vmaplist:                                                    
+#cut cellname (cells/wxa5cell|variables.xml#VariableMap_1)             
+  if cname == i.split('|')[0][-8:]:                                    
+   AdminConfig.create('VariableSubstitutionEntry'. i,'\                
+   [[symbolicName "DAEMON_claimKeyringName1"] \                        
+   [value '+keyr+']]')                                                 
+                                                                       
+_do(krorig)                                                            
+# AdminConfig.save()                                                   
+# syncNode()                                                           
